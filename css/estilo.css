@@ -128,5 +128,39 @@ text area {
     color:black;
 }
 
+/* Vista tablet */
+@media (max-width:1023px) {
+/* Header */
+header {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+}
 
+/* Senseis */
+.contenedorSenseis {
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+/* footer */
+footer {
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+}
+
+/*  Vista Movil  */
+/* 0 hasta 768px */
+
+@media (max-width:768px) {
+    .contenedorSenseis {
+        grid-template-columns: 1fr;
+
+    }
+}
 
